@@ -607,14 +607,12 @@ export const bulkRedirectsSchema = {
     required: ['source', 'destination'],
     properties: {
       source: {
-        description:
-          'The exact URL path or pattern to match.',
+        description: 'The exact URL path or pattern to match.',
         type: 'string',
         maxLength: 2048,
       },
       destination: {
-        description:
-          'The target URL path where traffic should be redirected.',
+        description: 'The target URL path where traffic should be redirected.',
         type: 'string',
         maxLength: 2048,
       },
