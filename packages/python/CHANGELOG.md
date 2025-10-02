@@ -1,5 +1,11 @@
 # @vercel/python
 
+## 5.0.7
+
+### Patch Changes
+
+- [python] better build logging ([#14026](https://github.com/vercel/vercel/pull/14026))
+
 ## 5.0.6
 
 ### Patch Changes
